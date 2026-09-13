@@ -23,3 +23,5 @@ Early-stage repository. The codebase is being established incrementally, with an
 ## Contributing
 
 Issues and focused improvements are welcome. Please describe the problem, expected behavior, and how the change was verified.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and pull request expectations.
