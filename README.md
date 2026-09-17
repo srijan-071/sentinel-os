@@ -25,3 +25,7 @@ Early-stage repository. The codebase is being established incrementally, with an
 Issues and focused improvements are welcome. Please describe the problem, expected behavior, and how the change was verified.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and pull request expectations.
+
+## Verification checklist
+
+Before submitting a change, verify the affected behavior locally and record the check you ran. For security-sensitive changes, also review that no credentials, tokens, or other secrets were introduced.
