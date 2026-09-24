@@ -1,31 +1,40 @@
 # SentinelOS
 
-A security-focused project workspace for building and experimenting with defensive software tooling.
+A security-focused workspace for building and experimenting with defensive software tooling.
 
 ## Status
 
-Early-stage repository. The codebase is being established incrementally, with an emphasis on clear boundaries, testable components, and practical security workflows.
+Early-stage repository focused on clear boundaries, testable components, and practical security workflows.
 
 ## Development principles
 
 - Keep security-sensitive behavior explicit.
-- Prefer small, testable components over large abstractions.
+- Prefer small, testable components.
 - Document assumptions and failure modes.
-- Add validation before adding complexity.
+- Validate before adding complexity.
+- Avoid collecting or storing secrets unless required.
 
 ## Roadmap
 
-- [ ] Establish the core application structure
+- [ ] Establish core application structure
 - [ ] Add automated tests and linting
-- [ ] Document the primary workflows
+- [ ] Document primary workflows
 - [ ] Add CI checks
+- [ ] Add dependency and secret-scanning safeguards
+- [ ] Document security boundaries for sensitive components
+
+## Security milestones
+
+**Foundation:** structure, validation, logging conventions, and repeatable local checks.
+
+**Verification:** automated tests and CI checks for defensive components.
+
+**Dependency hygiene:** automated dependency update checks with review before adoption.
+
+**Disclosure:** security concerns follow the repository security policy rather than premature public disclosure.
 
 ## Contributing
 
-Issues and focused improvements are welcome. Please describe the problem, expected behavior, and how the change was verified.
+Focused improvements are welcome. Describe the problem, expected behavior, and verification performed.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and pull request expectations.
-
-## Verification checklist
-
-Before submitting a change, verify the affected behavior locally and record the check you ran. For security-sensitive changes, also review that no credentials, tokens, or other secrets were introduced.
+See CONTRIBUTING.md for the contribution workflow.
