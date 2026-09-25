@@ -33,6 +33,16 @@ Early-stage repository focused on clear boundaries, testable components, and pra
 
 **Disclosure:** security concerns follow the repository security policy rather than premature public disclosure.
 
+## Security review checklist
+
+Before merging security-sensitive changes, verify:
+
+- Inputs are validated at the boundary.
+- Errors do not expose secrets or sensitive internal state.
+- Logs avoid credentials, tokens, and unnecessary personal data.
+- New dependencies have a documented reason.
+- Tests cover the security-relevant behavior and failure path.
+
 ## Contributing
 
 Focused improvements are welcome. Describe the problem, expected behavior, and verification performed.
