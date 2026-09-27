@@ -48,3 +48,9 @@ Before merging security-sensitive changes, verify:
 Focused improvements are welcome. Describe the problem, expected behavior, and verification performed.
 
 See CONTRIBUTING.md for the contribution workflow.
+
+## Incident response notes
+
+When a security-relevant event is reported: record the affected component and observed behavior, preserve reproducible evidence without exposing secrets, assess whether credentials or sensitive data could be involved, contain the affected path, document the fix and verification steps, and follow the repository disclosure policy before publishing details.
+
+Do not paste tokens, passwords, private keys, or sensitive customer data into issues or logs.
